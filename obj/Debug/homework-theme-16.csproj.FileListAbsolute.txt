@@ -1,0 +1,14 @@
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\homework-theme-16.csprojAssemblyReference.cache
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\MainWindow.g.cs
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\App.g.cs
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\homework-theme-16_MarkupCompile.cache
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\homework-theme-16_MarkupCompile.lref
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\bin\Debug\homework-theme-16.exe.config
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\bin\Debug\homework-theme-16.exe
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\bin\Debug\homework-theme-16.pdb
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\MainWindow.baml
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\homework-theme-16.g.resources
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\homework_theme_16.Properties.Resources.resources
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\homework-theme-16.csproj.GenerateResource.cache
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\homework-theme-16.exe
+D:\Библиотека\skillbox\Обучение\1. C#\16. Многопоточность\homework-theme-16\obj\Debug\homework-theme-16.pdb
