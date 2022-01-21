@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -93,10 +94,25 @@ namespace homework_theme_16
         {
             try
             {
-                for (int i = 0; i <= 2; i++)
+                //for (int i = 0; i <= 10; i++)
+                //{
+                //    //TimeInformationdb.Add(new MyMessages(DateTime.Now, $"С момента запуска прошло {i * 7} сек."));
+                //    using (StreamWriter sw = new StreamWriter("messageLog.txt", true))
+                //    {
+                //        sw.WriteLine($" {DateTime.Now} - С момента запуска прошло {i * 7} сек.");
+                //    }
+                //    Thread.Sleep(7000);
+
+                //}
+
+                int count = 0;
+                while (true)
                 {
-                    TimeInformationdb.Add(new MyMessages(DateTime.Now, $"С момента запуска прошло {i * 7} сек."));
                     Thread.Sleep(7000);
+                    using (StreamWriter sw = new StreamWriter("messageLog.txt", true))
+                    {
+                        sw.WriteLine($" {DateTime.Now} - С момента запуска прошло {count += 7} сек.");
+                    }
                 }
             }
             catch (Exception e)
