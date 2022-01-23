@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace homework_theme_16
 {
-    class RelayCommand : ICommand
+    public class RelayCommand : ICommand
     {
         private Action<object> execute;
         private Func<object, bool> canExecute;

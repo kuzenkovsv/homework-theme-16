@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Threading;
 
 namespace homework_theme_16
 {
@@ -94,18 +95,9 @@ namespace homework_theme_16
         {
             try
             {
-                //for (int i = 0; i <= 10; i++)
-                //{
-                //    //TimeInformationdb.Add(new MyMessages(DateTime.Now, $"С момента запуска прошло {i * 7} сек."));
-                //    using (StreamWriter sw = new StreamWriter("messageLog.txt", true))
-                //    {
-                //        sw.WriteLine($" {DateTime.Now} - С момента запуска прошло {i * 7} сек.");
-                //    }
-                //    Thread.Sleep(7000);
-
-                //}
-
                 int count = 0;
+                int count1 = 0;
+
                 while (true)
                 {
                     Thread.Sleep(7000);
@@ -113,6 +105,12 @@ namespace homework_theme_16
                     {
                         sw.WriteLine($" {DateTime.Now} - С момента запуска прошло {count += 7} сек.");
                     }
+
+                    Application.Current.Dispatcher.Invoke(() =>
+                    {
+                        TimeInformationdb.Add(new MyMessages(DateTime.Now, $"С момента запуска прошло {count1 += 7} сек."));
+
+                    });
                 }
             }
             catch (Exception e)
